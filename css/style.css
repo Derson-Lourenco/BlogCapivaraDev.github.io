@@ -17,7 +17,7 @@
 }
 
 /* section home */
-#inicio{
+/* #inicio{
   background-color: var(--secudaria);
 
 }
@@ -28,10 +28,9 @@
   color: var(--cordefundo);
   font-weight: bold;
   padding: 10px;
-  /* width: 100%; */
   text-transform: uppercase;
   border-radius: 8px;
-}
+} */
 /* .btn-primary {
   color: var(--cordefundo);
   background-color: var(--carcapivara);
@@ -40,8 +39,8 @@
 .btn-outline-primary {
   color: var(--carcapivara);
   border-color: var(--carcapivara);
-} */
-/* .navbar-nav .nav-item .nav-link.active {
+}  */
+ .navbar-nav .nav-item .nav-link.active {
   color: var(--carcapivara);
 }
 .navbar-nav .nav-item .nav-link.active:hover {
@@ -222,7 +221,7 @@ img{
   color: white;
   border-radius: 8px;
   transition: 0.3s;
-} */
+} 
 
 /* @media only screen and (max-width: 1000px) {
   .card{
@@ -257,4 +256,5 @@ img{
     color: var(--carcapivara);
     border-bottom: 2px solid var(--carcapivara);
   }
-} */
+}
+*/
