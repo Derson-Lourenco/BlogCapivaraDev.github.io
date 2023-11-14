@@ -119,6 +119,7 @@
 #card{
   margin-top: 50px;
   background-color: rgb(255, 255, 255);
+  border: 1px solid var(--carcapivara);
   flex-direction: column;
   width: 23%;
   padding: 10px 20px;
