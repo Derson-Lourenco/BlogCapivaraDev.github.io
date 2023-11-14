@@ -15,9 +15,18 @@
   --carcapivara: #E8465D;
   font-family: 'Roboto', sans-serif;
 }
+
+.navbar-nav .nav-item .nav-link.active {
+  color: var(--cordefundo);
+}
+
+/* .BotaoTeste{
+  color: var(--cordefundo);
+} */
 /* style header */
 .TituloCorCap{
   color: var(--carcapivara);
+  font-weight: bold;
 }
 .TituloCorFun{
   color: var(--cordefundo);
@@ -25,12 +34,7 @@
 #CorFundo{
   background-color: var(--corlogo);
 }
-#CorButton{ 
-  /* ver depois!! */
-  /* background-color: var(--cordefundo);
-  color: var(--carcapivara); */
-  border: 1px solid white;
-}
+
 .navbar-brand span{
   font-size: 30px;
   font-weight: bold;
@@ -80,7 +84,9 @@
 .ImgHome{
   width: 70%;
 }
-
+.ImgEquipe{
+  width: 100%;
+}
 #inicio{
   background-color: var(--corlogo);
 }
@@ -117,7 +123,11 @@
   font-size: 20px;
 }
 
-
+.sobre{
+  color: var(--corlogo);
+  font-size: 20px;
+  font-weight: bold;
+}
 #card{
   margin-top: 50px;
   background-color: rgb(255, 255, 255);
@@ -129,6 +139,7 @@
   align-items: center;
   margin-bottom: 20px;
 }
+
 #RowCard img{
   clip-path: circle();
   width: 50%;
@@ -160,7 +171,7 @@
 #card h3{
   font-size: 18px;
   color: var(--secudaria);
-  margin: 8px;
+  margin: 18px;
 }
 
 #card h2{
@@ -171,7 +182,6 @@
 #card p{
   font-size: 16px;
   color: var(--secudaria);
-  width: 250px;
   height: 100px;
 }
 /* .BotaoContato{
