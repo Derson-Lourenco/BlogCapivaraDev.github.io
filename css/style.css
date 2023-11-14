@@ -92,6 +92,103 @@
   font-size: 20px;
   padding: 10px;
 }
+.Icone{
+  color: #E8465D;
+  font-size: 85px;
+}
+
+
+#section_sobre{
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: var(--corlogo);
+  padding: 30px;
+  margin: 35px auto;
+}
+#section_sobre h1{
+  color: var(--carcapivara);
+  font-size: 38px;
+  margin: 0 auto;
+}
+#section_sobre p{
+  color: white;
+  font-size: 20px;
+}
+
+
+#card{
+  margin-top: 50px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  width: 23%;
+  padding: 10px 20px;
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#RowCard img{
+  clip-path: circle();
+  width: 50%;
+  height: 30%;
+}
+#card:hover{
+  border-bottom: 5px solid var(--carcapivara);
+  box-shadow: 0 0 5px var(--carcapivara);
+  transition: 0.3s;
+}
+
+#RowCard:hover > :not(:hover){
+  opacity: 20%;
+  transform: scale(0.95);
+
+}
+
+#RowCard{
+  flex-wrap: wrap;
+  gap: 0.5%;
+ 
+}
+
+#CardContainer{
+  margin: 80px auto;
+  text-align: center;
+}
+
+#card h3{
+  font-size: 18px;
+  color: var(--secudaria);
+  margin: 8px;
+}
+
+#card h2{
+  font-size: 25px;
+  color: var(--primaria);
+}
+
+#card p{
+  font-size: 16px;
+  color: var(--secudaria);
+  width: 250px;
+  height: 100px;
+}
+/* .BotaoContato{
+  text-decoration: none;
+  background-color: var(--cordefundo);
+  border: 1px solid var(--carcapivara);
+  color: var(--secudaria);
+  font-weight: bold;
+  padding: 20px;
+  width: 100%;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+
+.BotaoContato:hover{
+  background-color: var(--carcapivara);
+  color: white;
+  border-radius: 8px;
+  transition: 0.3s;
+} */
 /* .navbar-nav .nav-item .nav-link.active {
   color: var(--carcapivara);
 }
@@ -275,38 +372,15 @@ img{
   transition: 0.3s;
 }  */
 
-/* @media only screen and (max-width: 1000px) {
-  .card{
+@media only screen and (max-width: 1000px) {
+  #card{
     width: 43%;
-  }
-  .logo{
-    width: 60px;
-  }
-  .container{
-    width: 90%;
-  }
-  .navbar-toggler.botao[aria-expanded="true"] + .navbar-collapse .menu-link .nav-item .nav-link {
-    color: var(--primaria);
   }
 }
 
 @media only screen and (max-width: 600px) {
-  .card{
-    width: 100%;
+  #card{
+    width: 80%;
   }
-
-  .container{
-    width: 90%;
-  }
-  .logo{
-    width: 60px;
-  }
-  .navbar-toggler.botao[aria-expanded="true"] + .navbar-collapse .menu-link .nav-item .nav-link {
-    color: var(--secudaria);
-  }
-  .navbar-toggler.botao[aria-expanded="true"] + .navbar-collapse .menu-link .nav-item .nav-link:hover{
-    color: var(--carcapivara);
-    border-bottom: 2px solid var(--carcapivara);
-  }
+  
 }
-*/
