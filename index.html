@@ -2,15 +2,15 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link
+    <!-- <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
-    />
+    /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <!-- <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <link
       rel="shortcut icon"
       type="imagex/png"
@@ -21,7 +21,7 @@
   </head>
   <body>
     <!-- Header Menu com Logo -->
-    <header>
+    <header id="CorFundo">
       <!-- <nav class="navbar navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="#">
@@ -29,13 +29,14 @@
           </a>
         </div>
       </nav> -->
-      <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="img/cap.png" alt="" width="30" height="24" />
-            Capvara Dev
+            <img src="img/cap.png" alt="" />
+            <span class="TituloCorCap">Capvara</span> <span class="TituloCorFun">Dev</span>
           </a>
           <button
+            id="CorButton"
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
@@ -51,17 +52,17 @@
             class="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <div class="navbar-nav" id="navbarNavAltMaarkup">
-              <a class="nav-link" href="#">HOME</a>
-              <a class="nav-link" href="#">SOBRE NÓS</a>
-              <a class="nav-link" href="#">PROJETOS</a>
-              <a class="nav-link" href="#">EQUIPE</a>
-              <a class="nav-link" href="#">CONTATO</a>
+            <div class="navbar-nav" id="menu-link" >
+              <a class="nav-link" id="LinkPrincipaL" href="#">HOME</a>
+              <a class="nav-link" id="LinkPrincipaL" href="#">SOBRE NÓS</a>
+              <a class="nav-link" id="LinkPrincipaL" href="#">PROJETOS</a>
+              <a class="nav-link" id="LinkPrincipaL" href="#">EQUIPE</a>
+              <a class="nav-link" id="LinkPrincipaL" href="#">CONTATO</a>
             </div>
           </div>
         </div>
-      </nav> -->
-      <nav class="navbar navbar-expand-lg navbar-light MenuPrincipal">
+      </nav>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light MenuPrincipal">
         <div class="container-fluid">
           <img src="img/cap.jpeg" alt="" class="logo" />
           <button
@@ -100,37 +101,39 @@
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> -->
     </header>
 
-    <!-- <main>
-      <section class="container-fluid" id="inicio">
+    <main >
+      <section class="container-fluid"id="inicio" >
         <div class="container pt-5 ">
           <div class="row">
             <div class="col-lg-6 d-flex flex-column justify-content-center ">
-              <h1 class="tituloPrincipal">Capivara Dev</h1>
+              <h1 class="TituloPrincipal">
+                <span class="TituloCorCap">Construímos seu site ou sistema</span> <span class="TituloCorFun">utilizando as mais recentes tecnologias!</span>
+              </h1>
 
-              <p class="paragrafoPrincipal">RESUMO</p>
+              <p class="ParagrafoPrincipal">Capivara Dev: Desenvolvemos seu projeto com as mais recentes tecnologias, proporcionando inovação e eficiência. Transforme sua visão em realidade com a vanguarda digital.</p>
 
               <div class="row">
                 <div class="col-lg-6">
-                  <a class="btn btn-primary w-100" href="#">Entre em Contato</a>
+                  <a class="btn btn-primary w-100" id="btn-primary" href="#">Entre em Contato</a>
                 </div>
                 <div class="col-lg-6">
-                  <a class="btn btn-outline-primary w-100" href="#">Saiba Mais</a>
+                  <a class="btn btn-outline-primary w-100" id="btn-outline-primary" href="#">Saiba Mais</a>
                 </div>
               </div>              
             </div>
-            <div class="col-lg-6 mt-5 ">
-              <img src="img/cap.png" alt="">
+            <div class="col-lg-6 mt-3 p-2 text-center">
+              <img src="img/cap.png" alt="" class="ImgHome">
             </div>
           </div>
         </div>
       </section>
-    </main> -->
+    </main>
 
     <!-- Section Home  -->
-    <section id="section-home">
+    <!-- <section id="section-home">
       <div class="container">
         <div class="row">
           <div class="col-6 inicio">
@@ -146,10 +149,10 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Section sobre  -->
-    <section>
+    <!-- <section>
       <div class="container" id="section_sobre">
         <div class="row">
           <div class="col-4 inicio">
@@ -168,7 +171,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Section Card de trabalho  -->
     <!-- <section id="section_projetos">
@@ -221,7 +224,7 @@
       </div>
     </section> -->
     <!-- Section Card da Equipe  -->
-    <section id="equipe" class="container">
+    <!-- <section id="equipe" class="container">
       <h1 class="tituloPrincipal">Equipe Capivara</h1>
       <p class="paragrafoPrincipal">
         Capivara Dev reside não apenas nas suas soluções tecnológicas, mas
@@ -276,9 +279,9 @@
           <a class="BotaoContato" href="#">Entrar em Contato</a>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <section id="section_contato">
+    <!-- <section id="section_contato">
       <div class="container">
         <div class="row">
           <div class="col-12">
@@ -322,7 +325,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <script src="css/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
   </body>
 

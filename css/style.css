@@ -15,32 +15,84 @@
   --carcapivara: #E8465D;
   font-family: 'Roboto', sans-serif;
 }
+/* style header */
+.TituloCorCap{
+  color: var(--carcapivara);
+}
+.TituloCorFun{
+  color: var(--cordefundo);
+}
+#CorFundo{
+  background-color: var(--corlogo);
+}
+#CorButton{ 
+  /* ver depois!! */
+  /* background-color: var(--cordefundo);
+  color: var(--carcapivara); */
+  border: 1px solid white;
+}
+.navbar-brand span{
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar-brand img{
+  clip-path: circle();
+  width: 45px;
+  margin: 5px;
+}
+
+#LinkPrincipaL{
+  color: var(--cordefundo);
+  margin: 12px;
+  font-size: 16px;
+}
+#LinkPrincipaL:hover{
+  color: var(--carcapivara);
+  border-bottom: 2px solid var(--carcapivara);
+}
+
+/* **************** fim do header ************** */
 
 /* section home */
-/* #inicio{
-  background-color: var(--secudaria);
 
-}
-.BotaoSaibaMais{
-  text-decoration: none;
-  background-color: var(--carcapivara);
-  border: 1px solid var(--cordefundo);
+#btn-primary {
   color: var(--cordefundo);
+  background-color: var(--carcapivara);
+  border-color: var(--carcapivara);
   font-weight: bold;
-  padding: 10px;
   text-transform: uppercase;
   border-radius: 8px;
-} */
-/* .btn-primary {
-  color: var(--cordefundo);
-  background-color: var(--carcapivara);
-  border-color: var(--carcapivara);
 }
-.btn-outline-primary {
+#btn-outline-primary {
   color: var(--carcapivara);
   border-color: var(--carcapivara);
-}  */
- .navbar-nav .nav-item .nav-link.active {
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 8px;
+}
+#btn-outline-primary:hover {
+  color: var(--cordefundo);
+  border-color: var(--cordefundo);
+  background-color: #E8465D;
+}
+.ImgHome{
+  width: 70%;
+}
+
+#inicio{
+  background-color: var(--corlogo);
+}
+
+.TituloPrincipal{
+  font-size:43px;
+  padding: 5px;
+}
+.ParagrafoPrincipal{
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+/* .navbar-nav .nav-item .nav-link.active {
   color: var(--carcapivara);
 }
 .navbar-nav .nav-item .nav-link.active:hover {
@@ -119,7 +171,7 @@ body{
   background-color: var(--corlogo);
 }
 
-.menu-link a{
+#menu-link a{
   text-decoration: none;
   color: var(--terciaria);
   margin: 12px;
@@ -221,7 +273,7 @@ img{
   color: white;
   border-radius: 8px;
   transition: 0.3s;
-} 
+}  */
 
 /* @media only screen and (max-width: 1000px) {
   .card{
