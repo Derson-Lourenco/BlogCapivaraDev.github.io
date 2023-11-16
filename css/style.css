@@ -215,5 +215,7 @@ footer p{
   #card{
     width: 70%;
   }
-  
+  #btn-primary {
+    margin: 10px 0;
+  }
 }
