@@ -22,14 +22,14 @@
   color: white; /* Garante que o ícone seja branco */
 }
 
-
-.navbar-toggler-icon {
-  color: rgb(204, 98, 98); /* Cor do ícone do botão de alternância */
+.navbar-toggler-icon i :hover{
+  color: white; /* Garante que o ícone seja branco */
 }
 
 .quer{
   border: 1px solid white;
 }
+
 
 .k{
   color: white !important;
