@@ -167,11 +167,11 @@
   transition: 0.3s;
 }
 
-#RowCard:hover > :not(:hover){
+/* #RowCard:hover > :not(:hover){
   opacity: 20%;
   transform: scale(0.95);
 
-}
+} */
 
 #RowCard{
   flex-wrap: wrap;
